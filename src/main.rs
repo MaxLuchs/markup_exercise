@@ -1,6 +1,7 @@
+extern crate markup;
+use markup::my_mark_up::MyMarkup;
+use markup::traits::Markup;
 use std::env::args;
-
-use markup::MyMarkup;
 
 fn main() {
     let text = args().nth(1).unwrap();
